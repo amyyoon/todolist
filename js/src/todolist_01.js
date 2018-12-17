@@ -37,18 +37,18 @@ function newElements(){
 
 
 //click Li tag to make the list transferred to the Done List from must do List
-//  var i;
-// var li = document.getElementsByTagName('LI');
-// var doneUL = document.getElementById('doneUL');
-// var doneList = document.createElement('LI');
+ var i;
+ var li = document.getElementsByTagName('LI');
+ var doneUL = document.getElementById('doneUL');
+ var doneList = document.createElement('LI');
 
 
-// for(i=0; i<li.length; i++){
-// 	li[i].onclick = function(){
-// 		this.style.display = 'block';
-// 		doneUL.appendChild(this);
-// 	}
-// }
+ for(i=0; i<li.length; i++){
+ 	li[i].onclick = function(){
+ 		this.style.display = 'block';
+ 		doneUL.appendChild(this);
+ 	}
+ }
 
 //li에 mouseenter했을때, li에 닫기 button 
 
