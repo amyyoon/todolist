@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/base/reset.css" />
+	<link rel="stylesheet" href="../css/src/todolist_01.css" />
+	<link rel="stylesheet" href="../fontawesome5/css/all.css" />
+	<!--favicon-->
+	<link rel="apple-touch-icon" href="../img/devine-logo.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.jpg" />
+	<title>To Do List</title>
+</head>
+
+<body>
+<header class="headBox">
+  <h2>To Do List</h2>
+</header>
+
+<section class="mustdo">
+<h3>Write what to do and Press Enter!</h3>
+<input type="text" value="" placeholder="Write here please..." class="mustdoinput" onkeyup="newElements()">
+<ul id="mustUL">
+  <li>Work out at Gym</li>
+  <li class="checked" onclick="()">Make to do list</li>
+  <li>Make website with JavaScript</li>
+  <li>Bike</li>
+</ul>
+</section>
+
+<section class="done">
+<h3>Done</h3>
+<ul id="doneUL">
+	<li class="checked" onclick="()"></li>
+</ul> 
+</section>
+</body>
+<script src="../js/base/jquery-3.3.1.min.js"></script>
+<script src="../js/base/jquery-ui.min.js"></script>
+<script src="../js/src/todolist_01.js"></script>
+
